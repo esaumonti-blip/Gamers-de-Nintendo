@@ -1,0 +1,96 @@
+:root {
+  /* Background */
+  --bg-0: #0E0B17;
+  --bg-1: #14102E;
+
+  /* Cards */
+  --card-0: #13102B;
+ 
+  /* Title*/
+  --title-0: #F5C542;
+
+  /* Text */
+  --text-0: #FFFFFF;
+  --text-1: #D0D3E6;
+
+  /* Primary Button */
+  --primary-0: #4A5FD6;
+
+  .article {
+  background: var(--card-0);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+}
+
+body {
+  background: var(--bg-0);
+  color: var(--text-1);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* ===== ARTÍCULO ===== */
+.header h1 {
+  color: var(--title-0);
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+
+}
+.header {
+  padding: 2rem 1rem 1rem;
+}
+.header p {
+  color: var(--text-1);
+  text-align: center;
+  max-width: 600px;
+  margin: 0.5rem auto 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity:0.9;
+}
+
+
+.article {
+  background: var(--card-0);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.article img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.article h3 {
+  color: var(--title-0);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.article p {
+  color: var(--text-1);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* ===== BOTÓN ===== */
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.4rem;
+  background: var(--primary-0);
+  color: var(--text-0);
+  text-decoration: none;
+  border-radius: 6px;
+
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
