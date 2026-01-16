@@ -1,28 +1,27 @@
 :root {
   /* Background */
-  --bg-0: #0E0B17;
-  --bg-1: #14102E;
+  --bg-0: #0e0b17;
+  --bg-1: #14102e;
 
   /* Cards */
-  --card-0: #13102B;
- 
+  --card-0: #13102b;
+
   /* Title*/
-  --title-0: #F5C542;
+  --title-0: #f5c542;
 
   /* Text */
-  --text-0: #FFFFFF;
-  --text-1: #D0D3E6;
+  --text-0: #ffffff;
+  --text-1: #d0d3e6;
 
   /* Primary Button */
-  --primary-0: #4A5FD6;
-
-  .article {
+  --primary-0: #4a5fd6;
+}
+/*
   background: var(--card-0);
   padding: 2rem;
   border-radius: 8px;
   max-width: 900px;
   margin: 2rem auto;
-}
 }
 
 body {
@@ -38,7 +37,6 @@ body {
   text-align: center;
   font-size: 2.4rem;
   margin-bottom: 0.5rem;
-
 }
 .header {
   padding: 2rem 1rem 1rem;
@@ -50,9 +48,8 @@ body {
   margin: 0.5rem auto 0;
   font-size: 1.05rem;
   line-height: 1.6;
-  opacity:0.9;
+  opacity: 0.9;
 }
-
 
 .article {
   background: var(--card-0);
@@ -88,9 +85,10 @@ body {
   color: var(--text-0);
   text-decoration: none;
   border-radius: 6px;
-
 }
 
 .btn-primary:hover {
   opacity: 0.9;
 }
+
+/*
